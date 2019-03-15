@@ -8,7 +8,14 @@ use Laravel\Lumen\Routing\Router;
 
 class RouteServiceProvider extends ServiceProvider
 {
-    use ForwardCalls;
+    use ForwardsCalls;
+
+    /**
+     * The controller namespace for the application.
+     *
+     * @var string|null
+     */
+    private $namespace = null;
 
     /**
      * Bootstrap any application services.

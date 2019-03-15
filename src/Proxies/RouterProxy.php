@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylerian\Lumen\Support\Routing;
+namespace Tylerian\Lumen\Support\Proxies;
 
 use Laravel\Lumen\Routing\Router;
 use Illuminate\Contracts\Routing\Registrar;
